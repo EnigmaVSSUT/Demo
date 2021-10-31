@@ -1,3 +1,5 @@
+/*Start of JavaScript Program*/
+
 function setTheme(themeName) {
     localStorage.setItem('theme', themeName);
     document.getElementById('nxt_theme').innerHTML = (themeName === 'theme-light') ?
@@ -20,3 +22,5 @@ function toggleTheme() {
         setTheme('theme-light');
     }
 })();
+
+/*End of Program*/
